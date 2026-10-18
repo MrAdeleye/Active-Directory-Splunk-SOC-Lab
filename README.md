@@ -3,7 +3,7 @@ Teaching Windows to talk. Teaching Splunk to listen. Learning what happens when 
 
 
 <h2>Description</h2>
-This project is a hands-on security monitoring lab built with VirtualBox, Windows Server, Windows, Sysmon, Splunk, and an increasingly suspicious number of troubleshooting sessions.
+This project is a hands-on security monitoring lab built with VirtualBox, Windows Server, Windows, Sysmon, Splunk, and a suspicious number of troubleshooting sessions.
 
 The goal is to build a small enterprise-style environment, collect endpoint telemetry, centralize logs in Splunk, and eventually use that data to investigate suspicious activity.
 
