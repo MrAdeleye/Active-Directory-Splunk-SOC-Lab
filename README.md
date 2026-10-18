@@ -100,7 +100,7 @@ PowerShell automation: creating repeatable user administration and reporting scr
 
 These exercises are intended to demonstrate practical identity administration and access governance concepts using on-premises Active Directory.
 
-<h2>Program walk-through:</h2>
+<h2>Project walk-through:</h2>
 
 <p align="center">
 Conceptual Diagram of Active Directory Lab + Soc Project   <br/>
