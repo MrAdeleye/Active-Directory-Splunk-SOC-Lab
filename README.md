@@ -103,8 +103,8 @@ These exercises are intended to demonstrate practical identity administration an
 <h2>Program walk-through:</h2>
 
 <p align="center">
-Installed OpenVas and ran Full scan on Metasploitable 2  <br/>
-<img src="https://i.imgur.com/lFncVFj.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+Conceptual Diagram of Active Directory Lab + Soc Project   <br/>
+<img src="https://i.imgur.com/5stqTo6.png"  height="80%" width="80%" alt="Disk Sanitization Steps"/>
 <br />
 <br />
 
