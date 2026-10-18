@@ -32,20 +32,22 @@ Kali Linux - Supporting security testing and lab ex
 
 
 <h2> Current Progress </h2>
- Windows telemetry collection
+ Active Directory Setup
 
-- <b>Installed and configured Sysmon on the Windows systems.
-- <b>Installed and configured Splunk Universal Forwarder.
-- <b>Configured Windows event log inputs, including Application, Security, System, and Sysmon Operational logs.
-- <b>Configured forwarding to the Splunk receiver over TCP port 9997..
-- <b>Created the endpoint index in Splunk.
-- <b>Verified that endpoint data is arriving in the Splunk interface
+- <b>Installed Active Directory Domain Services on Windows Server 2022
+- <b>Promoted the server to a domain controller.
+- <b>Configured the Windows 10 client's DNS settings to use the domain controller..
+- <b>Successfully joined the Windows 10 client to the Active Directory domain.
+- <b>Created an administrative user for lab administration.
+  
 
- Troubleshooting the pipeline
+Endpoint Monitoring
 
--<b>Getting logs from Windows into Splunk involved more than installing the software.
+-<b>Installed Sysmon on the Windows endpoint.
+-<b>Verified that the Microsoft-Windows-Sysmon/Operational event channel exists and contains events.
+-<b>Installed the Splunk Universal Forwarder on both my windows server and windows 10 
+-<b>Configured Windows Application, Security, System, and Sysmon event log collection.
+-<b>Created the endpoint index in Splunk for endpoint data.
 
--<b>I worked through forwarding configuration issues, network connectivity checks, receiver port configuration, and Windows event channel verification.One incorrect port number was enough to waste time. A useful reminder that sometimes the problem is not advanced cybersecurity. Sometimes it is one extra digit.
-This troubleshooting is part of the project, not something to hide. The aim is to document the symptoms, investigation, fix, and verification for each issue.
-
+Splunk Integration and Troubleshooting
 
