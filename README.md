@@ -104,12 +104,12 @@ These exercises are intended to demonstrate practical identity administration an
 
 <p align="center">
 Conceptual Diagram of Active Directory Lab + Soc Project   <br/>
-<img src="https://i.imgur.com/5stqTo6.png"  height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://i.imgur.com/ihHtnSc.png"  height="80%" width="80%" alt="Disk Sanitization Steps"/>
 <br />
 <br />
 
- 
-Installed OpenVas and ran Full scan on Metasploitable 2  <br/>
-<img src="https://i.imgur.com/lFncVFj.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<p align="center">
+Lab Architechture and Virtual Machines   <br/>
+<img src="https://i.imgur.com/tWkiiYH.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 <br />
 <br />
