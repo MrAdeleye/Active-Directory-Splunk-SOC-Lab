@@ -100,4 +100,16 @@ PowerShell automation: creating repeatable user administration and reporting scr
 
 These exercises are intended to demonstrate practical identity administration and access governance concepts using on-premises Active Directory.
 
+<h2>Program walk-through:</h2>
 
+<p align="center">
+Installed OpenVas and ran Full scan on Metasploitable 2  <br/>
+<img src="https://i.imgur.com/lFncVFj.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<br />
+<br />
+
+ 
+Installed OpenVas and ran Full scan on Metasploitable 2  <br/>
+<img src="https://i.imgur.com/lFncVFj.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<br />
+<br />
