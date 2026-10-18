@@ -13,33 +13,39 @@ Not just installing security tools and admiring the dashboards. I want to unders
 
 <br />
 
-<h2> Target Goal </h2>
+<h2> Environments & Tools used </h2>
 
 
+Windows Server 2022 Active - Directory server and  domain controller
+
+Windows 10 - Endpoint for domain and security monitoring experiments
+
+Ubuntu Server - Hosts Splunk Enterprise for centralized log collection and analysis
+
+Sysmon - Collects detailed Windows system activity
+
+Splunk Universal Forwarder - Forwards Windows event data to Splunk
+
+VirtualBox 7.2 - Runs the virtual lab environment
+
+Kali Linux - Supporting security testing and lab ex
 
 
-<h2> Target Goal </h2>
-The primary goal of this lab was to  :
+<h2> Current Progress </h2>
+ Windows telemetry collection
 
-- <b>Perform host discovery and service enumeration.
-- <b>Identify vulnerabilities using OpenVAS.
-- <b>Prioritize vulnerabilities based on business risk.
-- <b>Recommend realistic remediation strategies.
-- <b>Document findings in a professional format.
+- <b>Installed and configured Sysmon on the Windows systems.
+- <b>Installed and configured Splunk Universal Forwarder.
+- <b>Configured Windows event log inputs, including Application, Security, System, and Sysmon Operational logs.
+- <b>Configured forwarding to the Splunk receiver over TCP port 9997..
+- <b>Created the endpoint index in Splunk.
+- <b>Verified that endpoint data is arriving in the Splunk interface
 
+ Troubleshooting the pipeline
 
-<h2> Actions Performed </h2>
- 
-- <b>Verified network connectivity.
-- <b>Performed service enumeration with Nmap. 
-- <b>Created and configured OpenVAS  alongside its  scan target.
-- <b>Executed a Full and Fast scan.
-- <b>Reviewed vulnerability findings.
-- <b>Prioritized vulnerabilities by severity and exploitability.
-- <b>Developed remediation recommendations.
-- <b>Validated findings against exposed services.
-  
+-<b>Getting logs from Windows into Splunk involved more than installing the software.
+
+-<b>I worked through forwarding configuration issues, network connectivity checks, receiver port configuration, and Windows event channel verification.One incorrect port number was enough to waste time. A useful reminder that sometimes the problem is not advanced cybersecurity. Sometimes it is one extra digit.
+This troubleshooting is part of the project, not something to hide. The aim is to document the symptoms, investigation, fix, and verification for each issue.
 
 
-
- <h2> Outcome of Actions  </h2> 
