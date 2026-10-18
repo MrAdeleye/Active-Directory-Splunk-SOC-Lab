@@ -43,11 +43,61 @@ Kali Linux - Supporting security testing and lab ex
 
 Endpoint Monitoring
 
--<b>Installed Sysmon on the Windows endpoint.
--<b>Verified that the Microsoft-Windows-Sysmon/Operational event channel exists and contains events.
--<b>Installed the Splunk Universal Forwarder on both my windows server and windows 10 
--<b>Configured Windows Application, Security, System, and Sysmon event log collection.
--<b>Created the endpoint index in Splunk for endpoint data.
+- <b>Installed Sysmon on the Windows endpoint.
+- <b>Verified that the Microsoft-Windows-Sysmon/Operational event channel exists and contains events.
+- <b>Installed the Splunk Universal Forwarder on both my windows server and windows 10 
+- <b>Configured Windows Application, Security, System, and Sysmon event log collection.
+- <b>Created the endpoint index in Splunk for endpoint data.
 
 Splunk Integration and Troubleshooting
+- <b>Configured Splunk Enterprise on Ubuntu Server to receive forwarded data on TCP port 9997.
+- <b>Configured the Universal Forwarder to send events to the Splunk server at 192.168.10.5:9997.
+- <b>Tested network connectivity between the Windows endpoint and the Splunk receiver.
+- <b>Troubleshot a forwarding destination mismatch that caused the forwarder to attempt connections to an incorrect IP address.
+- <b>Corrected the destination and confirmed that Windows endpoint events are now appearing in Splunk.
+
+This troubleshooting process reinforced the importance of validating effective configuration, checking service status, testing network connectivity, and reviewing forwarder logs when diagnosing ingestion problems.
+
+<h2> Next Phase: Simulating a Business Network </h2>
+
+The next stage is to populate Active Directory with fictional employee accounts and organize them into a realistic business structure.
+
+Planned tasks:
+
+- <b>Use PowerShell to create multiple test users.
+- <b>Organize users into Organizational Units (OUs).
+- <b>Create department-based and role-based security groups.
+- <b>Assign group memberships according to job responsibilities.
+- <b>Test authentication and access permissions from the domain-joined Windows 10 client.
+- <b>Practise account provisioning, role changes, and account deactivation.
+
+All accounts and identities will be fictional and restricted to the lab environment.
+
+Planned SOC Investigations
+
+Once the domain environment and logging pipeline are validated, I plan to generate and investigate security-relevant activity, including:
+Successful and failed Windows logons.
+Repeated authentication failures and account lockouts.
+New user and computer account creation.
+Security group membership changes.
+Privileged group modifications.
+Suspicious PowerShell activity.
+Sysmon process creation and other relevant endpoint events.
+
+Splunk searches will be developed to identify these events, establish useful context, and distinguish expected administrative activity from potentially suspicious behavior.
+
+Planned IAM Exercises
+
+The Active Directory environment will also support a separate focus on Identity and Access Management.
+
+Planned exercises include:
+Identity lifecycle management: onboarding, role changes, and offboarding.
+Role-based access control: assigning permissions through security groups.
+Least privilege: checking whether users have more access than their roles require.
+Access reviews: auditing group memberships and privileged accounts.
+Account auditing: identifying disabled accounts, stale accounts, and inappropriate access.
+PowerShell automation: creating repeatable user administration and reporting scripts.
+
+These exercises are intended to demonstrate practical identity administration and access governance concepts using on-premises Active Directory.
+
 
