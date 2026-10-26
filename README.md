@@ -113,3 +113,12 @@ Lab Architechture and Virtual Machines   <br/>
 <img src="https://i.imgur.com/tWkiiYH.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 <br />
 <br />
+
+
+<p align="center">
+Installed & Configured splunk on Ubuntu    <br/>
+<img src="https://i.imgur.com/lFjRgep.pngheight" ="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://i.imgur.com/tOOqUcb.png" ="80%" width="80%" alt="Disk Sanitization Steps"/>
+<br />
+<br />
+
