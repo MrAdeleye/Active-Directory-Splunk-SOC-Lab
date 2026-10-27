@@ -122,3 +122,9 @@ Installed & Configured splunk on Ubuntu    <br/>
 <br />
 <br />
 
+<p align="center">
+Sysmon and Splunk Universal forwarder installed ,configured and running on windows Domain Controller and Windows 10    <br/>
+<img src="https://i.imgur.com/52kWHoY.png" ="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://i.imgur.com/XA1UbWy.png" ="80%" width="80%" alt="Disk Sanitization Steps"/>
+<br />
+<br />
