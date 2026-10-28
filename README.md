@@ -129,6 +129,11 @@ Sysmon and Splunk Universal forwarder installed ,configured and running on windo
 <br />
 <br />
 
+<p align="center">
+windows-forwarder-inputs-config   <br/>
+<img src="https://i.imgur.com/EE33vY4.png"  height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<br />
+<br />
 
 <p align="center">
 Promoted windows server to Domain controller and added Active Directory features    <br/>
