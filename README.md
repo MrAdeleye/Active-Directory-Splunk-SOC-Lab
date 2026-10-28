@@ -128,3 +128,17 @@ Sysmon and Splunk Universal forwarder installed ,configured and running on windo
 <img src="https://i.imgur.com/XA1UbWy.png" ="80%" width="80%" alt="Disk Sanitization Steps"/>
 <br />
 <br />
+
+
+<p align="center">
+Promoted windows server to Domain controller and added Active Directory features    <br/>
+<img src="https://i.imgur.com/DfmKpuv.png"  height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<br />
+<br />
+
+<p align="center">
+Windows 10 DOmain membership on Chipotletrooper.Security    <br/>
+<img src="https://i.imgur.com/Csfkk9Z.png"  height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<br />
+<br />
+
